@@ -8,4 +8,4 @@ COPY server.py message.txt /
 CMD ["gunicorn", "-b 0.0.0.0:80", "server:app"]
 
 LABEL maintainer="Herman Zvonimir Došilović, hermanz.dosilovic@gmail.com"
-LABEL version="v0.1.0"
+LABEL version="0.1.0"
